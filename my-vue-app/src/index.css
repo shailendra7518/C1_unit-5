@@ -1,0 +1,15 @@
+body {
+  margin: auto;
+ display: flex;
+  flex-flow: column;
+  background: linear-gradient(110deg, #378661 20%, #d4a44b 80%);
+  
+}
+#root{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  align-items: center;
+  height: 800px;
+}

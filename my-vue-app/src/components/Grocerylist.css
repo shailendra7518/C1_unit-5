@@ -1,0 +1,32 @@
+.item_div{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(110deg, #378661 20%, #d4a44b 80%);
+border: 3px solid teal;
+margin-bottom: 10px;
+flex-wrap: wrap;
+
+ 
+}
+.item_div>h2:nth-child(2){
+  margin: 0px;
+  padding: 0px;
+  background-color: brown;
+  color: aliceblue;
+  padding: 10px;
+}
+.item_div button{
+  width: 80px;
+height: 40px;
+margin-top: 10px;
+font-size: 20px;
+border-radius: 10px;
+background-color: blueviolet;
+color: aliceblue;
+font-weight: bold;
+}
