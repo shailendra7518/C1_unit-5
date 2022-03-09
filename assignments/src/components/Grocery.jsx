@@ -14,7 +14,7 @@ export function Grocery() {
     }
    
 
-    fetch("http://localhost:3004/grocery", {
+    fetch("https://shailendrae-app.herokuapp.com/data", {
       method: "POST",
       body: JSON.stringify(paylod),
       headers: {
@@ -29,7 +29,7 @@ export function Grocery() {
 
 
   function getdata() {
-    fetch("http://localhost:3004/grocery")
+    fetch("https://shailendrae-app.herokuapp.com/data")
     .then(x => x.json())
     .then(item =>setalltext([...item]));
   }
@@ -51,7 +51,7 @@ export function Grocery() {
 setalltext([...ans])
 
 
-    fetch(`http://localhost:3004/grocery/${fin}`, {
+    fetch(`https://shailendrae-app.herokuapp.com/data/${fin}`, {
       method: "DELETE",
       headers: {
         "content-type":"application/json"

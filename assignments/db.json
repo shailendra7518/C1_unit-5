@@ -1,0 +1,14 @@
+{
+  "grocery": [
+    {
+      "id": "3c254feed080d",
+      "title": "biscuit",
+      "status": false
+    },
+    {
+      "id": "c5848716669d",
+      "title": "namkeen",
+      "status": false
+    }
+  ]
+}
